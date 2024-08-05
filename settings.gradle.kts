@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "AabResguardNews"
 include(":app")
 include(":plugin")
+include(":core")

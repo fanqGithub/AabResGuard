@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fan.plugin",
+    "module": "guard",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "AabResguardNews",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "guard-1.1.0.jar",
+          "url": "guard-1.1.0.jar",
+          "size": 23248,
+          "sha512": "228369ddbf7ff74f04c10649995705fb9c806833ffe2daf8c3e132ead37508d3f0fbc50c1b7481148ed8fa976847a74003ece60624e59f2011b3309729000b89",
+          "sha256": "da1201cf8eece7078761d4e4efd353d6d0f4fdaec5c3fad5842cf9c37f9875df",
+          "sha1": "be0f08b2a0da8a6d1c301f27ac0c5f7b86c532cc",
+          "md5": "fec6207a26c955993825a5bbc2c49179"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.1.2"
+          }
+        },
+        {
+          "group": "AabResguardNews",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "guard-1.1.0.jar",
+          "url": "guard-1.1.0.jar",
+          "size": 23248,
+          "sha512": "228369ddbf7ff74f04c10649995705fb9c806833ffe2daf8c3e132ead37508d3f0fbc50c1b7481148ed8fa976847a74003ece60624e59f2011b3309729000b89",
+          "sha256": "da1201cf8eece7078761d4e4efd353d6d0f4fdaec5c3fad5842cf9c37f9875df",
+          "sha1": "be0f08b2a0da8a6d1c301f27ac0c5f7b86c532cc",
+          "md5": "fec6207a26c955993825a5bbc2c49179"
+        }
+      ]
+    }
+  ]
+}
